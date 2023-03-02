@@ -101,13 +101,3 @@ Then you can use `vagrant ssh <name of machine>` to SSH into the box. The projec
 ### Creating a release
 
 In `install.sh` github source and script release variables should change every release. Firstly, update the `CHANGELOG.md` so that the release date and release tag are both displayed. No changes should be made to the changelog points themselves. Secondly, update `GITHUB_SOURCE` and `SCRIPT_RELEASE` in `install.sh`. Finally, you can now push a commit with the message `Release vX.Y.Z`. Create a release on GitHub. See [this commit](https://github.com/pterodactyl-installer/pterodactyl-installer/commit/90aaae10785f1032fdf90b216a4a8d8ca64e6d44) for reference.
-
-## Contributors ✨
-
-Copyright (C) 2018 - 2023, Vilhelm Prytz, <vilhelm@prytznet.se>
-
-Created and maintained by [Vilhelm Prytz](https://github.com/vilhelmprytz).
-
-Thanks to the Discord moderators [sam1370](https://github.com/sam1370), [Linux123123](https://github.com/Linux123123) and [sinjs](https://github.com/sinjs) for helping on the Discord server!
-
-And special thanks to [Linux123123](https://github.com/Linux123123) for frequently contributing to the project with bug reports, feature requests, pull requests, and more!
